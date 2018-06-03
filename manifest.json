@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Gerrit-Dark",
+  "version": "0.1.0",
+  "description": "Add dark css style to gerrit interface.",
+ 
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["http://localhost:8080/*"]
+  }]
+ 
+}
